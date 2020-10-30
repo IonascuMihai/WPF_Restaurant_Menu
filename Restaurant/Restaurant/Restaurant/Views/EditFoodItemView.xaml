@@ -1,0 +1,49 @@
+﻿<Window x:Class="Restaurant.Views.EditFoodItemView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Restaurant.Views"
+        xmlns:viewmodels="clr-namespace:Restaurant.ViewModels"
+        mc:Ignorable="d"
+        Title="EditFoodItemView" Height="450" Width="800"
+        x:Name="editWindow">
+    <Window.DataContext>
+        <viewmodels:EditFoodItemVM/>
+    </Window.DataContext>
+    <Window.Resources>
+        <Thickness x:Key="chosenMargin">0,10,0,0</Thickness>
+    </Window.Resources>
+    <Grid>
+        <StackPanel>
+            <StackPanel.Resources>
+                <Style TargetType="{x:Type TextBox}">
+                    <Setter Property="Margin" Value="{StaticResource chosenMargin}"/>
+                </Style>
+                <Style TargetType="{x:Type Label}">
+                    <Setter Property="Margin" Value="{StaticResource chosenMargin}"/>
+                </Style>
+            </StackPanel.Resources>
+            <TextBlock Text="Edit food item info" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold"/>
+            <WrapPanel>
+                <Label Content="Food name:"/>
+                <TextBox FontStyle="Italic" Width="200" MaxLength="30" Text="{Binding FoodItemName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+            </WrapPanel>
+            <WrapPanel>
+                <Label Content="Price: "/>
+                <TextBox FontStyle="Italic" Width="200" MaxLength="30" Text="{Binding FoodItemPrice, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+            </WrapPanel>
+            <WrapPanel>
+                <Label Content="Menu Qty"/>
+                <TextBox FontStyle="Italic" Width="200" MaxLength="30" Text="{Binding MenuQty, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+            </WrapPanel>
+            <WrapPanel>
+                <Label Content="Restaurant Qty: "/>
+                <TextBox FontStyle="Italic" Width="200" MaxLength="30" Text="{Binding RestaurantQty, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+            </WrapPanel>
+        </StackPanel>
+        <Canvas>
+            <Button Content="Commit change" Canvas.Left="328" Canvas.Top="350" Height="34" Width="98" Command="{Binding CommitChangeCommand}" CommandParameter="{Binding ElementName=editWindow}"/>
+        </Canvas>
+    </Grid>
+</Window>

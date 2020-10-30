@@ -1,0 +1,20 @@
+﻿Restaurant
+
+
+winexe
+C#
+.cs
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\
+Restaurant
+none
+false
+DEBUG;TRACE
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\App.xaml
+13-648362361
+2-483447119
+722057590102
+2213603939
+Views\AddToMenuView.xaml;Views\ChangeOrderStatusView.xaml;Views\CustomerMenuView.xaml;Views\EditFoodItemView.xaml;Views\EditMenuItemView.xaml;Views\EmployeeMenuView.xaml;Views\EmployeeOrdersView.xaml;Views\LoginView.xaml;Views\LowStockView.xaml;Views\MainWindow.xaml;Views\NoLoginMenuView.xaml;Views\OrderView.xaml;Views\RegisterView.xaml;
+
+True
+

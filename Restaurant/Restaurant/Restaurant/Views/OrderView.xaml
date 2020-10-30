@@ -1,0 +1,58 @@
+﻿<Window x:Class="Restaurant.Views.OrderView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Restaurant.Views"
+                xmlns:viewmodels="clr-namespace:Restaurant.ViewModels"
+        mc:Ignorable="d"
+        Title="OrderView" Height="450" Width="800" ResizeMode="NoResize">
+    <Window.DataContext>
+        <viewmodels:OrderViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Your orders" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold" Grid.Row="0" Canvas.Left="312"/>
+        <ListBox x:Name="orderListBox" ItemsSource="{Binding OrderList, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Row="1" Grid.RowSpan="6"
+                 SelectedIndex="{Binding SelectedOrderIndex, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <WrapPanel>
+                        <WrapPanel.Resources>
+                            <Style TargetType="{x:Type TextBlock}">
+                                <Setter Property="Margin" Value="0,0,30,0"/>
+                            </Style>
+                            <Style TargetType="{x:Type ListBox}">
+                                <Setter Property="Margin" Value="0,0,30,0"/>
+                            </Style>
+                        </WrapPanel.Resources>
+                        <TextBlock Text="{Binding OrderId}"/>
+                        <ListBox ItemsSource="{Binding ProductNames, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel>
+                                        <TextBlock Text="{Binding ProductName}"/>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                        <TextBlock Text="{Binding TotalPrice}"/>
+                        <TextBlock Text="{Binding State}"/>
+                        <TextBlock Text="{Binding Date}"/>
+                        <TextBlock Text="{Binding EstimateDelivery}"/>
+                    </WrapPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Button Content="Cancel order" Grid.Row="7" Margin="350,10,316,10" Command="{Binding CancelOrderCommand}"/>
+    </Grid>
+</Window>

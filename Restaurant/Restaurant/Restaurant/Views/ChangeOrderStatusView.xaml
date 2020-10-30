@@ -1,0 +1,21 @@
+﻿<Window x:Class="Restaurant.Views.ChangeOrderStatusView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Restaurant.Views"
+        mc:Ignorable="d"
+        xmlns:viewmodels="clr-namespace:Restaurant.ViewModels"
+        Title="ChangeOrderStatusView" Height="300" Width="300">
+    <Window.DataContext>
+        <viewmodels:ChangeOrderStatusVM/>
+    </Window.DataContext>
+    <Grid>
+        <Canvas>
+            <TextBlock Text="Edit order status" FontWeight="Bold" FontSize="30" Canvas.Left="31"/>
+            <ComboBox x:Name="statusBox" ItemsSource="{Binding OrderStates}" Height="28" Canvas.Left="71" Canvas.Top="81" Width="148">
+            </ComboBox>
+            <Button Content="Apply change" Canvas.Left="107" Canvas.Top="196" Height="32" Command="{Binding ApplyChangeCommand}" CommandParameter="{Binding ElementName=statusBox}" Click="Button_Click"/>
+        </Canvas>
+    </Grid>
+</Window>

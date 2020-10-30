@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8E775076-3F28-471C-ACE7-1522050C5DD8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Restaurant</RootNamespace>
+    <AssemblyName>Restaurant</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignColors, Version=1.2.6.1513, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignColors.1.2.6\lib\net45\MaterialDesignColors.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignThemes.Wpf, Version=3.1.3.1513, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignThemes.3.1.3\lib\net45\MaterialDesignThemes.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Models\Alergen.cs">
+      <DependentUpon>RestaurantDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AlergenModel.cs" />
+    <Compile Include="Models\Categorie.cs">
+      <DependentUpon>RestaurantDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CategoryModel.cs" />
+    <Compile Include="Models\CheckEmailAndPassword_Result.cs">
+      <DependentUpon>RestaurantDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Comanda.cs">
+      <DependentUpon>RestaurantDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Comanda_Meniu_Aux.cs">
+      <DependentUpon>RestaurantDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Comanda_Preparat_Aux.cs">
+      <DependentUpon>RestaurantDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\FindMenuByName_Result.cs">
+      <DependentUpon>RestaurantDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\FindPreparatByName_Result.cs">
+      <DependentUpon>RestaurantDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\FindPreparateForGivenOrderIndex_Result.cs">
+      <DependentUpon>RestaurantDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\GetAllergenStrings2_Result.cs">
+      <DependentUpon>RestaurantDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\GetCategoryStrings_Result.cs">
+      <DependentUpon>RestaurantDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\GetLowStockFood_Result.cs">
+      <DependentUpon>RestaurantDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\GetMenuPreparatComponentsWeightAndId_Result.cs">
+      <DependentUpon>RestaurantDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\GetMenus_Result.cs">
+      <DependentUpon>RestaurantDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\GetOrderDetailsForGivenOrderId_Result.cs">
+      <DependentUpon>RestaurantDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\GetOrdersUnsorted_Result.cs">
+      <DependentUpon>RestaurantDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\GetPreparate_Result.cs">
+      <DependentUpon>RestaurantDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Meniu.cs">
+      <DependentUpon>RestaurantDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Meniu_Preparat_Aux.cs">
+      <DependentUpon>RestaurantDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MenuModel.cs" />
+    <Compile Include="Models\OrderLBModel.cs" />
+    <Compile Include="Models\OrderModel.cs" />
+    <Compile Include="Models\Preparat.cs">
+      <DependentUpon>RestaurantDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PreparatModel.cs" />
+    <Compile Include="Models\Preparat_Alergen_Aux.cs">
+      <DependentUpon>RestaurantDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ProductNamesModel.cs" />
+    <Compile Include="Models\RestaurantDatabase.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestaurantDatabase.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RestaurantDatabase.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestaurantDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RestaurantDatabase.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestaurantDatabase.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SortActivesByDate_Result.cs">
+      <DependentUpon>RestaurantDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SortActivesByETA_Result.cs">
+      <DependentUpon>RestaurantDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SortByDate_Result.cs">
+      <DependentUpon>RestaurantDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SortByETA_Result.cs">
+      <DependentUpon>RestaurantDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>RestaurantDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_helpdiagrams_Result.cs">
+      <DependentUpon>RestaurantDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sysdiagrams.cs">
+      <DependentUpon>RestaurantDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Utilizator.cs">
+      <DependentUpon>RestaurantDatabase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\RelayCommand.cs" />
+    <Compile Include="ViewModels\AddToMenuVM.cs" />
+    <Compile Include="ViewModels\ChangeOrderStatusVM.cs" />
+    <Compile Include="ViewModels\EditFoodItemVM.cs" />
+    <Compile Include="ViewModels\EditMenuItemVM.cs" />
+    <Compile Include="ViewModels\EmployeeMenuVM.cs" />
+    <Compile Include="ViewModels\EmployeeOrdersVM.cs" />
+    <Compile Include="ViewModels\INotifyViewModel.cs" />
+    <Compile Include="ViewModels\LoginVM.cs" />
+    <Compile Include="ViewModels\LowStockViewModel.cs" />
+    <Compile Include="ViewModels\MainVM.cs" />
+    <Compile Include="ViewModels\CustomerMenuVM.cs" />
+    <Compile Include="ViewModels\NoLoginMenuVM.cs" />
+    <Compile Include="ViewModels\OrderViewModel.cs" />
+    <Compile Include="Views\AddToMenuView.xaml.cs">
+      <DependentUpon>AddToMenuView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ChangeOrderStatusView.xaml.cs">
+      <DependentUpon>ChangeOrderStatusView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CustomerMenuView.xaml.cs">
+      <DependentUpon>CustomerMenuView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EditFoodItemView.xaml.cs">
+      <DependentUpon>EditFoodItemView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EditMenuItemView.xaml.cs">
+      <DependentUpon>EditMenuItemView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EmployeeMenuView.xaml.cs">
+      <DependentUpon>EmployeeMenuView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EmployeeOrdersView.xaml.cs">
+      <DependentUpon>EmployeeOrdersView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LowStockView.xaml.cs">
+      <DependentUpon>LowStockView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NoLoginMenuView.xaml.cs">
+      <DependentUpon>NoLoginMenuView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\OrderView.xaml.cs">
+      <DependentUpon>OrderView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\RegisterView.xaml.cs">
+      <DependentUpon>RegisterView.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Views\AddToMenuView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ChangeOrderStatusView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\CustomerMenuView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\EditFoodItemView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\EditMenuItemView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\EmployeeMenuView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\EmployeeOrdersView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LoginView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LowStockView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ViewModels\RegisterVM.cs" />
+    <Compile Include="Views\LoginView.xaml.cs">
+      <DependentUpon>LoginView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Views\NoLoginMenuView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\OrderView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\RegisterView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EntityDeploy Include="Models\RestaurantDatabase.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>RestaurantDatabase.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Models\RestaurantDatabase.edmx.diagram">
+      <DependentUpon>RestaurantDatabase.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Models\RestaurantDatabase.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>RestaurantDatabase.edmx</DependentUpon>
+      <LastGenOutput>RestaurantDatabase.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\RestaurantDatabase.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>RestaurantDatabase.edmx</DependentUpon>
+      <LastGenOutput>RestaurantDatabase.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\MaterialDesignThemes.3.1.3\build\MaterialDesignThemes.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MaterialDesignThemes.3.1.3\build\MaterialDesignThemes.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="..\packages\MaterialDesignThemes.3.1.3\build\MaterialDesignThemes.targets" Condition="Exists('..\packages\MaterialDesignThemes.3.1.3\build\MaterialDesignThemes.targets')" />
+</Project>

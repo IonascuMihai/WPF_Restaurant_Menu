@@ -1,0 +1,102 @@
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\bin\Debug\Restaurant.exe.config
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\bin\Debug\Restaurant.exe
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\bin\Debug\Restaurant.pdb
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\bin\Debug\EntityFramework.dll
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\bin\Debug\EntityFramework.xml
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\App.g.cs
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Restaurant_Content.g.cs
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Restaurant_MarkupCompile.cache
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Restaurant_MarkupCompile.lref
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Restaurant.g.resources
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Restaurant.Properties.Resources.resources
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Restaurant.csproj.GenerateResource.cache
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Restaurant.csproj.CopyComplete
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Restaurant.exe
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Restaurant.pdb
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\MainWindow.g.cs
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\MainWindow.baml
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\LoginView.g.cs
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\LoginView.baml
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\RegisterView.g.cs
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\RegisterView.baml
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\CustomerMenuView.g.cs
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\CustomerMenuView.baml
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\EmployeeMenuView.g.cs
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\NoLoginMenuView.g.cs
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\EmployeeMenuView.baml
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\NoLoginMenuView.baml
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\AddToMenuView.g.cs
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\AddToMenuView.baml
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\EditFoodItemView.g.cs
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\EditFoodItemView.baml
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\EditMenuItemView.g.cs
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\EditMenuItemView.baml
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\OrderView.g.cs
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\OrderView.baml
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\EmployeeOrdersView.g.cs
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\EmployeeOrdersView.baml
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\ChangeOrderStatusView.g.cs
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\ChangeOrderStatusView.baml
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\LowStockView.g.cs
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\LowStockView.baml
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Restaurant.csprojAssemblyReference.cache
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\bin\Debug\MaterialDesignColors.dll
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Mihai\Desktop\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\App.baml
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\bin\Debug\Restaurant.exe.config
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\bin\Debug\Restaurant.exe
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\bin\Debug\Restaurant.pdb
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\bin\Debug\EntityFramework.dll
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\bin\Debug\MaterialDesignColors.dll
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\bin\Debug\EntityFramework.xml
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Restaurant.csprojAssemblyReference.cache
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\AddToMenuView.g.cs
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\ChangeOrderStatusView.g.cs
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\CustomerMenuView.g.cs
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\EditFoodItemView.g.cs
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\EditMenuItemView.g.cs
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\EmployeeMenuView.g.cs
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\EmployeeOrdersView.g.cs
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\LoginView.g.cs
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\LowStockView.g.cs
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\MainWindow.g.cs
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\NoLoginMenuView.g.cs
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\OrderView.g.cs
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\RegisterView.g.cs
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\App.g.cs
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Restaurant_Content.g.cs
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Restaurant_MarkupCompile.cache
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Restaurant_MarkupCompile.lref
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\App.baml
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\AddToMenuView.baml
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\ChangeOrderStatusView.baml
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\CustomerMenuView.baml
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\EditFoodItemView.baml
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\EditMenuItemView.baml
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\EmployeeMenuView.baml
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\EmployeeOrdersView.baml
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\LoginView.baml
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\LowStockView.baml
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\MainWindow.baml
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\NoLoginMenuView.baml
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\OrderView.baml
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Views\RegisterView.baml
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Restaurant.g.resources
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Restaurant.Properties.Resources.resources
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Restaurant.csproj.GenerateResource.cache
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Restaurant.csproj.CopyComplete
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Restaurant.exe
+C:\Users\Mihai\Desktop\Examene sem 2\Laborator MVP\MVP Laborator\Restaurant\Restaurant\Restaurant\obj\Debug\Restaurant.pdb
